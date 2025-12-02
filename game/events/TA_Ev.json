@@ -21,15 +21,35 @@
         }
     },
 
-    "RedMoon": {
-        "EventName": "TA_REDMOON",
-        "Description": "Just... No.",
+    "IceCold": {
+        "EventName": "IC",
+        "EventImage": "10012742311",
+        "Description": "Cold",
+        "GamemodeVL": false,
+        "SeizureWarning": true,
 
-        "Dates": {
-            "Day1": 1,
-            "Day2": 2,
-            "Day3": 3
+        "CountdownDate":{
+            "year": 2025,
+            "mouth": 12,
+            "day": 3,
+            "hour": 14,
+            "minutes": 0,
+            "seconds": 0
+        },
+
+        "NightNight": {
+            "year": 2025,
+            "mouth": 12,
+            "day": 3,
+            "hour": 15,
+            "minutes": 0,
+            "seconds": 0
+        },
+
+        "Stages": {
+            "IC_Exp01_Start": 1,
+            "IC_Exp02_Start": 2,
+            "IC_Exp03_Start": 3
         }
     }
-
 }
